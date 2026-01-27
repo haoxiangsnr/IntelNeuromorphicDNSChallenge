@@ -1,3 +1,8 @@
+
+> THIS REPOSITORY IS A FORK OF THE ORIGINAL REPOSITORY AT: https://github.com/IntelLabs/IntelNeuromorphicDNSChallenge
+>
+> ---
+
 # Intel Neuromorphic DNS Challenge
 
 > [!CAUTION]
@@ -63,15 +68,15 @@ gantt
 
 ### Important dates
 
-|Phase|Date|
-|-|-:|
-|Challenge start             | Mar 16, 2023|
-|Test set 1 release          | _On or about_ Aug 18, 2023|
-|Track 1 submission deadline | _On or about_ Sep 18, 2023|
-|Track 1 winner announcement | Oct 2, 2023|
-|Test set 2 release          | _On or about_ Jan 28, 2024|
-|Track 2 submission deadline | _On or about_ Feb 28, 2024|
-|Track 2 winner announcement | Mar 14, 2024|
+| Phase                       |                       Date |
+| --------------------------- | -------------------------: |
+| Challenge start             |               Mar 16, 2023 |
+| Test set 1 release          | _On or about_ Aug 18, 2023 |
+| Track 1 submission deadline | _On or about_ Sep 18, 2023 |
+| Track 1 winner announcement |                Oct 2, 2023 |
+| Test set 2 release          | _On or about_ Jan 28, 2024 |
+| Track 2 submission deadline | _On or about_ Feb 28, 2024 |
+| Track 2 winner announcement |               Mar 14, 2024 |
 > Challenge dates are subject to change. Registered participants shall be notified of any changes in the dates or fixation of _on or about_ dates.
 
 
@@ -276,41 +281,41 @@ To submit to the metricsboard, please create a ```.yml``` file with contents aki
 
 
 **Track 1 final results (Test Set 1)**
-| Entry| <sub>$\text{SI-SNR}$ <sup>(dB)| <sub>$\text{SI-SNRi}$ <sup>data (dB)| <sub>$\text{SI-SNRi}$ <sup>enc+dec (dB)| <sub>$\text{MOS}$ <sup>(ovrl)| <sub>$\text{MOS}$ <sup>(sig)| <sub>$\text{MOS}$ <sup>(bak)| <sub>$\text{latency}$ <sup>enc+dec (ms)| <sub>$\text{latency}$ <sup>total (ms)| <sub>$\text{Power}$ $\text{proxy}$ <sup>(M-Ops/s) | <sub>$\text{PDP}$ $\text{proxy}$ <sup>(M-Ops)| <sub>$\text{Params}$ <sup>($\times 10^3$)|<sub>$\text{Size}$ <sup>(KB)|
-|:-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|
+|                                                      Entry                                                       | <sub>$\text{SI-SNR}$ <sup>(dB) | <sub>$\text{SI-SNRi}$ <sup>data (dB) | <sub>$\text{SI-SNRi}$ <sup>enc+dec (dB) | <sub>$\text{MOS}$ <sup>(ovrl) | <sub>$\text{MOS}$ <sup>(sig) | <sub>$\text{MOS}$ <sup>(bak) | <sub>$\text{latency}$ <sup>enc+dec (ms) | <sub>$\text{latency}$ <sup>total (ms) | <sub>$\text{Power}$ $\text{proxy}$ <sup>(M-Ops/s) | <sub>$\text{PDP}$ $\text{proxy}$ <sup>(M-Ops) | <sub>$\text{Params}$ <sup>($\times 10^3$) | <sub>$\text{Size}$ <sup>(KB) |
+| :--------------------------------------------------------------------------------------------------------------: | -----------------------------: | -----------------------------------: | --------------------------------------: | ----------------------------: | ---------------------------: | ---------------------------: | --------------------------------------: | ------------------------------------: | ------------------------------------------------: | --------------------------------------------: | ----------------------------------------: | ---------------------------: |
 | <td colspan=12> [Team Clairaudience](https://github.com/haoxiangsnr/spiking-fullsubnet) 🥇🥇🥇**Track 1 Winner**🏆🏆🏆 |
-| Clairaudience (model_L 2023-07-27)  | 14.80 | 7.43 | 7.43 | 3.03 | 3.33 | 3.96 | 0.03 | 32.03 | 74.10 | 2.37 | 1,289.00 | 5,156.00 |
-| Clairaudience (model_M 2023-07-26)  | 14.71 | 7.34 | 7.34 | 3.05 | 3.35 | 3.97 | 0.03 | 32.03 | 53.60 | 1.72 | 954.00 | 3,816.00 |
-| Clairaudience (model_S 2023-07-25)  | 13.89 | 6.52 | 6.52 | 2.97 | 3.28 | 3.93 | 0.03 | 32.03 | 29.24 | 0.94 | 521.00 | 2,084.00 |
-| Clairaudience (model_XL 2023-07-27)  | 15.20 | 7.83 | 7.83 | 3.07 | 3.37 | 3.99 | 0.03 | 32.03 | 55.91 | 1.79 | 1,798.00 | 7,192.00 |
-|<td colspan=12> [Team XTeam](https://github.com/wangtianrui/XTeam) 🥈🥈**Track 1 Runner Up**|
-| XTeam (CTDNN_LAVADL 2023-09-15)  | 13.52 | 6.59 | 6.59 | 2.97 | 3.32 | 3.86 | 0.00 | 32.00 | 61.37 | 0.49 | 904.80 | 3,619.18 |
-| XTeam (XNN 2023-09-15)  | 10.75 | 3.82 | 3.82 | 2.73 | 3.20 | 3.50 | 0.00 | 32.00 | 82.08 | 0.66 | 3,676.17 | 14,704.00 |
-| <td colspan=12> [Team SPANDEX](https://github.com/Michaeljurado42/SPANDEX) 🥉**Track 1 Honorable Mention**|
-| SPANDEX (50% Sparsity SDNN 2023-08-18)  | 12.16 | 4.80 | 4.80 | 2.70 | 3.19 | 3.46 | 0.01 | 32.01 | 9.32 | 0.30 | 344.00 | 305.00 |
-| SPANDEX (75% Sparsity SDNN 2023-08-18)  | 11.72 | 4.36 | 4.36 | 2.68 | 3.24 | 3.29 | 0.01 | 32.01 | 6.06 | 0.19 | 174.00 | 154.00 |
-| <td colspan=12> [Team NECOTIS](https://github.com/NECOTIS/IntelNeuromorphicDNSChallenge)|
-| NECOTIS (PSNN - K3 2023-08-03)  | 12.32 | 4.96 | 4.96 | 2.68 | 2.91 | 3.96 | 0.00 | 32.00 | 57.24 | 1.83 | 723.71 | 2,827.00 |
-| NECOTIS (PSNN 2023-07-27)  | 13.65 | 6.26 | 6.26 | 2.67 | 2.92 | 3.93 | 0.00 | 32.00 | 105.17 | 3.37 | 1,512.19 | 5,907.00 |
-| NECOTIS (SRNN-256 2023-07-27)  | 10.83 | 3.46 | 3.46 | 2.78 | 3.18 | 3.75 | 0.00 | 32.00 | 18.57 | 0.59 | 459.78 | 1,796.00 |
-| <td colspan=12> [Team NoiCE](https://github.com/thebarnable/noice)|
-| NoiCE (Spiking Conv 2023-09-18)  | 12.96 | 5.60 | 5.60 | 2.79 | 3.22 | 3.64 | 0.05 | 32.05 | 6,110.76 | 195.87 | 2,100.22 | 8,209.00 |
-| <td colspan=12> [Team Phase3 Physics](https://github.com/phase3physics/INDNS)|
-| Phase 3 Physics (Conv SDNN solution, 21 training epochs 2023-09-18)  | 12.59 | 5.22 | 5.22 | 2.74 | 3.18 | 3.59 | 0.01 | 32.01 | 51.20 | 1.64 | 497.00 | 1,900.00 |
-|<td colspan=12> [Team Siliron](https://github.com/zhe-ch/Siliron)|
-| Siliron (ARG-ABS SDNN solution 2023-09-16)  | 9.05 | 1.69 | 1.69 | 2.55 | 3.22 | 2.94 | 0.02 | 8.02 | 1.16 | 0.01 | 33.00 | 77.20 |
-|<td colspan=12> __Baselines__|
-| Microsoft NsNet2 (02/20/2023)      | 11.63 | 4.26 | 4.26 | 2.95 | 3.26 | 3.93 | 0.024 | 20.024 | 136.13 | 2.72 | 2,681 | 10,500 |
-| Intel proprietary DNS (02/28/2023) | 12.51 | 5.14 | 5.14 | 3.08 | 3.34 | 4.07 | 0.015 | 32.015 |    -   |   -  | 1,901 | 3,802|
-| Baseline SDNN solution (02/20/2023)| 12.26 | 4.89 | 4.89 | 2.70 | 3.20 | 3.45 | 0.015 | 32.015 |  14.52 | 0.46 |   525 |   465|
-| Test Set 1                         |  7.37 |   -  |   -  | 2.43 | 3.16 | 2.69 |   -   |    -   |    -   |   -  |   -   |   -  |
+|                                        Clairaudience (model_L 2023-07-27)                                        |                          14.80 |                                 7.43 |                                    7.43 |                          3.03 |                         3.33 |                         3.96 |                                    0.03 |                                 32.03 |                                             74.10 |                                          2.37 |                                  1,289.00 |                     5,156.00 |
+|                                        Clairaudience (model_M 2023-07-26)                                        |                          14.71 |                                 7.34 |                                    7.34 |                          3.05 |                         3.35 |                         3.97 |                                    0.03 |                                 32.03 |                                             53.60 |                                          1.72 |                                    954.00 |                     3,816.00 |
+|                                        Clairaudience (model_S 2023-07-25)                                        |                          13.89 |                                 6.52 |                                    6.52 |                          2.97 |                         3.28 |                         3.93 |                                    0.03 |                                 32.03 |                                             29.24 |                                          0.94 |                                    521.00 |                     2,084.00 |
+|                                       Clairaudience (model_XL 2023-07-27)                                        |                          15.20 |                                 7.83 |                                    7.83 |                          3.07 |                         3.37 |                         3.99 |                                    0.03 |                                 32.03 |                                             55.91 |                                          1.79 |                                  1,798.00 |                     7,192.00 |
+|            <td colspan=12> [Team XTeam](https://github.com/wangtianrui/XTeam) 🥈🥈**Track 1 Runner Up**            |
+|                                         XTeam (CTDNN_LAVADL 2023-09-15)                                          |                          13.52 |                                 6.59 |                                    6.59 |                          2.97 |                         3.32 |                         3.86 |                                    0.00 |                                 32.00 |                                             61.37 |                                          0.49 |                                    904.80 |                     3,619.18 |
+|                                              XTeam (XNN 2023-09-15)                                              |                          10.75 |                                 3.82 |                                    3.82 |                          2.73 |                         3.20 |                         3.50 |                                    0.00 |                                 32.00 |                                             82.08 |                                          0.66 |                                  3,676.17 |                    14,704.00 |
+|    <td colspan=12> [Team SPANDEX](https://github.com/Michaeljurado42/SPANDEX) 🥉**Track 1 Honorable Mention**     |
+|                                      SPANDEX (50% Sparsity SDNN 2023-08-18)                                      |                          12.16 |                                 4.80 |                                    4.80 |                          2.70 |                         3.19 |                         3.46 |                                    0.01 |                                 32.01 |                                              9.32 |                                          0.30 |                                    344.00 |                       305.00 |
+|                                      SPANDEX (75% Sparsity SDNN 2023-08-18)                                      |                          11.72 |                                 4.36 |                                    4.36 |                          2.68 |                         3.24 |                         3.29 |                                    0.01 |                                 32.01 |                                              6.06 |                                          0.19 |                                    174.00 |                       154.00 |
+|             <td colspan=12> [Team NECOTIS](https://github.com/NECOTIS/IntelNeuromorphicDNSChallenge)             |
+|                                          NECOTIS (PSNN - K3 2023-08-03)                                          |                          12.32 |                                 4.96 |                                    4.96 |                          2.68 |                         2.91 |                         3.96 |                                    0.00 |                                 32.00 |                                             57.24 |                                          1.83 |                                    723.71 |                     2,827.00 |
+|                                            NECOTIS (PSNN 2023-07-27)                                             |                          13.65 |                                 6.26 |                                    6.26 |                          2.67 |                         2.92 |                         3.93 |                                    0.00 |                                 32.00 |                                            105.17 |                                          3.37 |                                  1,512.19 |                     5,907.00 |
+|                                          NECOTIS (SRNN-256 2023-07-27)                                           |                          10.83 |                                 3.46 |                                    3.46 |                          2.78 |                         3.18 |                         3.75 |                                    0.00 |                                 32.00 |                                             18.57 |                                          0.59 |                                    459.78 |                     1,796.00 |
+|                        <td colspan=12> [Team NoiCE](https://github.com/thebarnable/noice)                        |
+|                                         NoiCE (Spiking Conv 2023-09-18)                                          |                          12.96 |                                 5.60 |                                    5.60 |                          2.79 |                         3.22 |                         3.64 |                                    0.05 |                                 32.05 |                                          6,110.76 |                                        195.87 |                                  2,100.22 |                     8,209.00 |
+|                  <td colspan=12> [Team Phase3 Physics](https://github.com/phase3physics/INDNS)                   |
+|                       Phase 3 Physics (Conv SDNN solution, 21 training epochs 2023-09-18)                        |                          12.59 |                                 5.22 |                                    5.22 |                          2.74 |                         3.18 |                         3.59 |                                    0.01 |                                 32.01 |                                             51.20 |                                          1.64 |                                    497.00 |                     1,900.00 |
+|                        <td colspan=12> [Team Siliron](https://github.com/zhe-ch/Siliron)                         |
+|                                    Siliron (ARG-ABS SDNN solution 2023-09-16)                                    |                           9.05 |                                 1.69 |                                    1.69 |                          2.55 |                         3.22 |                         2.94 |                                    0.02 |                                  8.02 |                                              1.16 |                                          0.01 |                                     33.00 |                        77.20 |
+|                                          <td colspan=12> __Baselines__                                           |
+|                                          Microsoft NsNet2 (02/20/2023)                                           |                          11.63 |                                 4.26 |                                    4.26 |                          2.95 |                         3.26 |                         3.93 |                                   0.024 |                                20.024 |                                            136.13 |                                          2.72 |                                     2,681 |                       10,500 |
+|                                        Intel proprietary DNS (02/28/2023)                                        |                          12.51 |                                 5.14 |                                    5.14 |                          3.08 |                         3.34 |                         4.07 |                                   0.015 |                                32.015 |                                                 - |                                             - |                                     1,901 |                        3,802 |
+|                                       Baseline SDNN solution (02/20/2023)                                        |                          12.26 |                                 4.89 |                                    4.89 |                          2.70 |                         3.20 |                         3.45 |                                   0.015 |                                32.015 |                                             14.52 |                                          0.46 |                                       525 |                          465 |
+|                                                    Test Set 1                                                    |                           7.37 |                                    - |                                       - |                          2.43 |                         3.16 |                         2.69 |                                       - |                                     - |                                                 - |                                             - |                                         - |                            - |
 
 > **Note:** Track 1 validation metricsboard can be found [here](track1_val_metricsboard.md).
 
 **Track 2**
-| Entry| <sub>$\text{SI-SNR}$ <sup>(dB)| <sub>$\text{SI-SNRi}$ <sup>data (dB)| <sub>$\text{SI-SNRi}$ <sup>enc+dec (dB)| <sub>$\text{MOS}$ <sup>(ovrl)| <sub>$\text{MOS}$ <sup>(sig)| <sub>$\text{MOS}$ <sup>(bak)| <sub>$\text{latency}$ <sup>enc+dec (ms)| <sub>$\text{latency}$ <sup>total (ms)| <sub>$\text{Power}$ <sup>(W) | <sub>$\text{PDP}$ <sup>(Ws)| <sub>$\text{Cores}$|
-|:-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|-:|
-| Team xyz (mm/dd/yyyy) |        |         |         |         |             |           |   | | | | |
+|         Entry         | <sub>$\text{SI-SNR}$ <sup>(dB) | <sub>$\text{SI-SNRi}$ <sup>data (dB) | <sub>$\text{SI-SNRi}$ <sup>enc+dec (dB) | <sub>$\text{MOS}$ <sup>(ovrl) | <sub>$\text{MOS}$ <sup>(sig) | <sub>$\text{MOS}$ <sup>(bak) | <sub>$\text{latency}$ <sup>enc+dec (ms) | <sub>$\text{latency}$ <sup>total (ms) | <sub>$\text{Power}$ <sup>(W) | <sub>$\text{PDP}$ <sup>(Ws) | <sub>$\text{Cores}$ |
+| :-------------------: | -----------------------------: | -----------------------------------: | --------------------------------------: | ----------------------------: | ---------------------------: | ---------------------------: | --------------------------------------: | ------------------------------------: | ---------------------------: | --------------------------: | ------------------: |
+| Team xyz (mm/dd/yyyy) |                                |                                      |                                         |                               |                              |                              |                                         |                                       |                              |                             |                     |
 
 > **Note:**
 > * An Intel committee will determine the challenge winner using a holistic evaluation (not one particular metric). We encourage challenge participants to strive for top performance in all metrics. 
