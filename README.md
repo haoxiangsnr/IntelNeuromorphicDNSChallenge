@@ -1,7 +1,8 @@
 
 > THIS REPOSITORY IS A FORK OF THE ORIGINAL REPOSITORY AT: https://github.com/IntelLabs/IntelNeuromorphicDNSChallenge
->
-> ---
+> You might want to check out the official Intel test suite; here is a backup: https://github.com/haoxiangsnr/IntelNeuromorphicDNSChallenge/releases/tag/dataset-v1.0
+
+---
 
 # Intel Neuromorphic DNS Challenge
 
